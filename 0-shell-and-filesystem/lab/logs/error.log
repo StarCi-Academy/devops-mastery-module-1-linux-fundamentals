@@ -1,0 +1,3 @@
+2024-01-15 08:02:03 ERROR [app] Connection refused: redis:6379
+2024-01-15 08:02:20 ERROR [app] Redis connection failed after 3 attempts
+2024-01-15 08:03:44 ERROR [app] Connection refused: redis:6379

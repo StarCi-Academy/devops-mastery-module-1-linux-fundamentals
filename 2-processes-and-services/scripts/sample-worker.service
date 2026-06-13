@@ -1,0 +1,11 @@
+[Unit]
+Description=Sample Worker Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /scripts/sample-worker.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

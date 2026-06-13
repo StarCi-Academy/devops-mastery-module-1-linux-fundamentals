@@ -1,0 +1,3 @@
+user: bob
+role: devops
+team: infrastructure
